@@ -1,8 +1,35 @@
-pygobject (3.12.0-1blankon1) tambora; urgency=low
+pygobject (3.16.1-0blankon1) tambora; urgency=medium
+
+  * New upstream release 
+
+ -- Mahyuddin <yudi.al@gmail.com>  Mon, 01 Jun 2015 19:59:47 +0700
+
+pygobject (3.14.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Drop Add-protection-against-attempts-at-importing-static-.patch, included
+    in this version.
+  * Refresh 01_cairo_region.patch to apply to this version.
+  * Bump g-i dependencies to >= 1.39 as per upstream configure.ac.
+  * Bump Standards-Version to 3.9.6 (no changes necessary).
+
+ -- Martin Pitt <mpitt@debian.org>  Tue, 23 Sep 2014 07:22:57 +0200
+
+pygobject (3.12.2-1) unstable; urgency=medium
 
   * New upstream release
+  * d/p/Add-protection-against-attempts-at-importing-static-.patch
+    + Added. Prevents segfault when importing old-style modules in programs
+      using gi (From upstream git)
 
- -- Mahyuddin Ramli <yudi.al@gmail.com>  Sun, 30 Mar 2014 15:22:07 +0700
+ -- Sjoerd Simons <sjoerd@debian.org>  Sat, 30 Aug 2014 14:23:05 +0200
+
+pygobject (3.12.1-1) unstable; urgency=medium
+
+  * New upstream bug fix release.
+  * Upload to unstable.
+
+ -- Martin Pitt <mpitt@debian.org>  Tue, 15 Apr 2014 09:21:00 +0200
 
 pygobject (3.12.0-1) experimental; urgency=medium
 
